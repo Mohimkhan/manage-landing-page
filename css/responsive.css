@@ -1,0 +1,232 @@
+@media only screen and (min-width: 1000px) {
+   body {
+      position: relative;
+      background-image: url('/images/bg-tablet-pattern.svg'),
+         url('/images/bg-tablet-pattern.svg');
+      background-repeat: no-repeat;
+      background-position: 148%, -189%;
+      background-position-y: center, center;
+      background-position-y: center, center;
+      background-position-y: -214px, 1046px;
+      background-size: 62% auto;
+      background-size: auto, 74%;
+   }
+
+   /* ############
+        Hero-section
+    ############## */
+
+   .hamburger {
+      display: none;
+   }
+
+   nav {
+      display: block;
+   }
+
+   /* ############
+         Button
+    ############## */
+
+   .click {
+      display: block;
+   }
+
+   /* ############
+     Intro-section
+    ############## */
+
+   main {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: stretch;
+   }
+
+   .intro-2 {
+      display: block;
+      text-align: left;
+      order: -1;
+      margin-top: 1.5em;
+   }
+
+   .h-style {
+      max-width: 497px;
+      font-size: 3.8rem;
+   }
+
+   .p-style {
+      max-width: 335px;
+   }
+   /* ############
+     Feature-section
+    ############## */
+   .feature {
+      flex-direction: row;
+      align-items: stretch;
+      justify-content: space-between;
+   }
+
+   .feature-2 {
+      margin-inline: 0;
+      width: 39%;
+   }
+
+   .heading {
+      max-width: 348px;
+   }
+
+   .feature-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      text-align: left;
+      margin-right: 2em;
+   }
+
+   .p-style-c1 {
+      max-width: 448px;
+      margin-top: 1em;
+   }
+
+   .feature-score {
+      margin-left: -4.5em;
+   }
+
+   .feature-list-item h1 {
+      font-size: 18px;
+      padding-top: 0.4em;
+   }
+
+   /* ############
+     Review-section
+    ############## */
+
+   .reviews {
+      width: 100%;
+      max-width: 100%;
+      display: block;
+   }
+
+   .review-item {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+      place-items: center;
+   }
+
+   .p-style-c2 {
+      max-width: 460px;
+   }
+
+   .item-two {
+      margin-inline: 2em;
+   }
+
+   .review-heading {
+      font-size: 3rem;
+      margin-bottom: 2em;
+      color: var(--clr-primary-300);
+   }
+
+   /* ############
+      System-section
+    ############## */
+
+   .system {
+      height: 30vh;
+      padding-top: 3.5em;
+      background-position: 182px -38px;
+      background-image: url('/images/bg-simplify-section-desktop.svg');
+      background-size: auto;
+   }
+
+   .systems {
+      justify-content: space-between;
+      flex-direction: row;
+   }
+
+   .system-heading {
+      text-align: left;
+      max-width: 479px;
+   }
+
+   /* ############
+      Footer-section
+    ############## */
+
+   .footer-list {
+      width: 90%;
+      max-width: 90%;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 35vh;
+   }
+
+   .copyright {
+      position: inherit;
+      margin-top: 3em;
+      margin-bottom: 0em;
+   }
+
+   .social-links {
+      margin-top: 0em;
+      margin-bottom: 0em;
+      order: -1;
+   }
+
+   .social {
+      margin-top: 4em;
+      margin-bottom: 0em;
+      order: 1;
+   }
+
+   .social img {
+      width: 25px;
+      margin-right: 0.7em;
+   }
+
+   .search {
+      margin-top: 0em;
+      order: 1;
+   }
+   
+   .links {
+      margin-top: 0em;
+   }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+   /* ############
+     Intro-section
+    ############## */
+
+   .h-style {
+      font-size: 2.8rem;
+   }
+
+   /* ############
+     Review-section
+    ############## */
+
+   .review-item {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(35%, 1fr));
+      place-items: center;
+      row-gap: 25px;
+      max-width: 95%;
+      margin-inline: auto;
+   }
+
+   .p-style-c2 {
+      max-width: 405px;
+   }
+
+   .item-three {
+      grid-row: 2;
+      grid-column: 1 / -1;
+   }
+
+   .length {
+      text-emphasis: none;
+      text-decoration: none;
+   }
+}
